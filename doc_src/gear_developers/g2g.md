@@ -10,7 +10,7 @@
 - Antikythera routes a g2g request to its target gear's controller action by matching its method and path, as is the case for web request
   (See also [routing](https://hexdocs.pm/antikythera/routing.html)).
 - You can send request to another gear by using `TargetGear.G2g` module.
-  For usage of `G2g` modules, refer to [test code in antikythera repo](https://github.com/access-company/antikythera/tree/master/testgear/test/g2g_test.exs).
+  For usage of `G2g` modules, refer to [test code in antikythera repo](https://github.com/access-company/testgear/blob/master/test/g2g_test.exs).
 
 ## Avoiding unnecessary body decoding/encoding
 
